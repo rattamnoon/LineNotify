@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  line:
+    build:
+      context: ./
+    ports:
+      - "3000:8001"
+    networks:
+      - lineNotify
+    restart: always
+
+networks:
+  lineNotify:

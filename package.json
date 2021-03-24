@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "4.16.4",
+    "is-reachable": "^5.0.0",
+    "line-api": "^0.2.1",
+    "mongodb": "3.1.4",
+    "node-cron": "^3.0.0",
+    "nodemon": "1.18.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
